@@ -28,8 +28,15 @@ var RNSegmentIOAnalytics = {
     /*
      * https://segment.com/docs/libraries/ios/#identify
      */
-    identifyUser: function (userId, traits) {
-        NativeRNSegmentIOAnalytics.identifyUser(userId, traits);
+    identify: function (userId, traits) {
+        NativeRNSegmentIOAnalytics.identify(userId, traits);
+    },
+    
+    /*
+     * https://segment.com/docs/libraries/ios/#identify
+     */
+    group: function (groupId, traits) {
+        NativeRNSegmentIOAnalytics.group(groupId, traits);
     },
 
     /*
