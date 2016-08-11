@@ -31,7 +31,7 @@ var RNSegmentIOAnalytics = {
     identify: function (userId, traits) {
         NativeRNSegmentIOAnalytics.identify(userId, traits);
     },
-    
+
     /*
      * https://segment.com/docs/libraries/ios/#identify
      */

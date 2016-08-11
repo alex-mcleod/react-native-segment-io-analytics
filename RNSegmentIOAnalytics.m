@@ -47,7 +47,7 @@ RCT_EXPORT_METHOD(track:(NSString*)trackText properties:(NSDictionary *)properti
  https://segment.com/docs/libraries/ios/#screen
  */
 RCT_EXPORT_METHOD(screen:(NSString*)screenName properties:(NSDictionary *)properties) {
-    [[SEGAnalytics sharedAnalytics] screen:screenName properties:propertues];
+    [[SEGAnalytics sharedAnalytics] screen:screenName properties:properties];
 }
 
 /*
